@@ -1,0 +1,13 @@
+class Bancaria:
+    def __init__(self,titular,saldo):
+        self.titular = titular
+        self.saldo = saldo
+
+    def exibir_dados(self):
+        print(f"titular:{self.titular},saldo:{self.saldo}")
+
+conta1 = Bancaria("João",10000)
+conta2 = Bancaria("Pedro",15000)
+
+conta1.exibir_dados()
+conta2.exibir_dados()
