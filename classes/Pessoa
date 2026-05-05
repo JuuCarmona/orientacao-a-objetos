@@ -6,7 +6,7 @@ class Pessoa:
     def exibir_dados(self):
         print(f"Nome:{self.nome},idade:{self.idade}")
 
-p1 = Pessoa(nome = "Julia",idade= 21)
+p1 = Pessoa("Julia",21)
 p2 = Pessoa("Carla",40)
 
 p1.exibir_dados()
